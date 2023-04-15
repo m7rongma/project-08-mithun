@@ -153,3 +153,16 @@ body {
     color: tomato;
 }
 /*About CSS end*/
+
+/* Footer CSS start*/
+.footer {
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+}
+.footer p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+/* Footer CSS end*/
