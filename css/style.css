@@ -78,7 +78,7 @@ body {
 }
 /*Header CSS End*/
 
-/* Services CSS */
+/* Services CSS start */
 .title h4 {
     text-align: center;
     text-transform: capitalize;
@@ -106,3 +106,50 @@ body {
     text-transform: capitalize;
     margin-bottom: 25px;
 }
+/* Services CSS end */
+
+/* About CSS start*/
+.about {
+    padding: 60px 0;
+}
+.about-left {
+    float: left;
+    width: 70%;
+    margin-right: 30px;
+}
+.about-left h4,
+.about-menu h4 {
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-left p {
+    margin-bottom: 15px;
+}
+.about-menu {
+    float: right;
+    width: 25%;
+}
+.about-menu ul li {
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: -7px 1px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child {
+    border-bottom: 0;
+}
+.about-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+.about-menu ul li a:hover {
+    color: tomato;
+}
+/*About CSS end*/
