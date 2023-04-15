@@ -1,3 +1,65 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+.main:before,
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.main-part {
+    width: 95%;
+    margin: 0 auto;
+}
+/*Header CSS Start*/
+.header {
+    background-color: #dddddd;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+}
+.logo a {
+}
+.logo a img {
+}
+.menu {
+    float: right;
+    width: 680px;
+}
+.menu ul {
+    text-align: right;
+    margin-top: 14px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.menu ul li a:hover {
+    background-color: tomato;
+    color: #fff;
+}
+/*Header CSS End*/
